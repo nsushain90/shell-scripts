@@ -1,0 +1,25 @@
+#!/bin/bash
+
+//Loop and print numbers from 1 to 50 
+
+for variable in {1..50}
+do
+  echo "$variable"
+done
+
+
+//Loop and sequence 
+
+for i in {1..99}
+ do
+ count=$(( $i % 2 ))
+  if [ $count -ne 0 ]
+  then 
+   echo $i
+  fi 
+done 
+
+
+//
+
+
